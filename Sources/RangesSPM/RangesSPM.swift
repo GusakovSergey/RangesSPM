@@ -4,7 +4,11 @@
 import Alamofire
 
 public class MyClass {
-    public let prop = Alamofire.AFError.explicitlyCancelled
     
-    public init() {}
+    public let prop = Alamofire.AFError.invalidURL(url: "https://google.com")
+    
+    public init() {
+        
+        
+    }
 }
